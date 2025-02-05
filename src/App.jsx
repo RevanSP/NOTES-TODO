@@ -4,7 +4,7 @@ import Todo from "./pages/Todo";
 
 const App = () => {
   return (
-    <Router basename="/NOTES-TODO">
+    <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/notes" />} />
         <Route path="/notes" element={<Notes />} />
