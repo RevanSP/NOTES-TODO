@@ -302,7 +302,7 @@ const Notes = () => {
                         </div>
                     </div>
                 )}
-                <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4 mt-4 px-4 !mt-20">
+                <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4 mt-4 px-4 !mt-20 mb-6">
                     {filteredNotes.map((note, index) => (
                         <div className="col-span-1" key={index}>
                             <div className="card border-2 rounded-none bg-base-100 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
