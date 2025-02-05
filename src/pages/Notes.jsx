@@ -308,7 +308,7 @@ const Notes = () => {
                             <div className="card border-2 rounded-none bg-base-100 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
                                 <div className="card-body flex flex-col p-4">
                                     <div className="flex justify-between items-start">
-                                        <h5 className="card-title text-light truncate">{note.title}</h5>
+                                        <h5 className="text-xl font-bold truncate">{note.title}</h5>
                                         <button
                                             onClick={() => togglePin(index)}
                                             className={`btn btn-sm bg-base-300 border-2 border-black btn-square text-xs rounded-none shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] ${note.pin}`}
