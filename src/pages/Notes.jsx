@@ -317,7 +317,7 @@ const Notes = () => {
                                         </button>
                                     </div>
                                     <p className="card-text text-sm text-gray-600">{note.date}</p>
-                                    <div className="mt-auto flex justify-end gap-2">
+                                    <div className="mt-auto flex justify-end gap-2 mt-3">
                                         <button
                                             onClick={() => openViewDialog(note)}
                                             className="btn btn-sm bg-base-300 border-2 border-black btn-square text-xs rounded-none shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
